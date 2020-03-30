@@ -3,7 +3,6 @@ const { Component } = React;
 
 class WordBook extends Component {
     state = {
-        word: 'capture',
         value: '',
         result: '',
     };
@@ -50,7 +49,7 @@ class WordBook extends Component {
                     <input ref={this.onRefInput} value={this.state.value} onChange={this.onChangeInput} />
                     <button>입력!</button>
                 </form>
-                <div>{this.state.result}</div>
+                <div><h1>{this.state.result}</h1></div>
             </>
         );
     }
