@@ -1,0 +1,2 @@
+# wordbook
+wordbook ignoring vowels
